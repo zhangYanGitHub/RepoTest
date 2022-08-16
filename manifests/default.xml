@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <manifest>
   <remote  name="Foundation"
-       fetch="https://xi-bitbucket-01.telenav.com/scm/bitbucket/viv/vivid-ivi-foundation.git"
+       fetch="https://github.com/zhangYanGitHub/model_master.git"
        revision="master"
-       review="https://xi-bitbucket-01.telenav.com/scm/bitbucket/viv/vivid-ivi-foundation.git" />
+       review="https://github.com/zhangYanGitHub/model_master.gitt" />
   
   <remote  name="Zoom"
-       fetch="https://bitbucket.telenav.com/scm/viv/vivid-ivi-zoom.git"
+       fetch="https://github.com/zhangYanGitHub/Netty_Demo.git"
        revision="master"
-       review="https://bitbucket.telenav.com/scm/viv/vivid-ivi-zoom.git" />
-    <remote  name="News"
-       fetch="https://bitbucket.telenav.com/scm/viv/vivid-ivi-news.git"
-       revision="master"
-       review="https://bitbucket.telenav.com/scm/viv/vivid-ivi-news.git" />
-  
+       review="https://github.com/zhangYanGitHub/Netty_Demo.git" />
   <default remote="origin"
            revision="master"
        sync-j="4" />
 
-<!--  <project
+  <project
         path="Apps/zoom"
         name="zoom"
         remote="origin"
@@ -28,9 +23,4 @@
         name="Foundation"
         remote="origin"
         revision="master" />
- <project
-        path="Apps/News"
-        name="News"
-        remote="origin"
-        revision="master" /> -->
 </manifest>
