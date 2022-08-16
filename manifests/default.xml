@@ -1,0 +1,36 @@
+
+<manifest>
+  <remote  name="Foundation"
+       fetch="https://xi-bitbucket-01.telenav.com/scm/bitbucket/viv/vivid-ivi-foundation.git"
+       revision="master"
+       review="https://xi-bitbucket-01.telenav.com/scm/bitbucket/viv/vivid-ivi-foundation.git" />
+  
+  <remote  name="Zoom"
+       fetch="https://bitbucket.telenav.com/scm/viv/vivid-ivi-zoom.git"
+       revision="master"
+       review="https://bitbucket.telenav.com/scm/viv/vivid-ivi-zoom.git" />
+    <remote  name="News"
+       fetch="https://bitbucket.telenav.com/scm/viv/vivid-ivi-news.git"
+       revision="master"
+       review="https://bitbucket.telenav.com/scm/viv/vivid-ivi-news.git" />
+  
+  <default remote="origin"
+           revision="master"
+       sync-j="4" />
+
+ <project
+        path="Apps/zoom"
+        name="zoom"
+        remote="origin"
+        revision="master" />
+ <project
+        path="Foundation"
+        name="Foundation"
+        remote="origin"
+        revision="master" />
+ <project
+        path="Apps/News"
+        name="News"
+        remote="origin"
+        revision="master" />
+</manifest>
