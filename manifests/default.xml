@@ -18,7 +18,7 @@
            revision="master"
        sync-j="4" />
 
- <project
+<!--  <project
         path="Apps/zoom"
         name="zoom"
         remote="origin"
@@ -32,5 +32,5 @@
         path="Apps/News"
         name="News"
         remote="origin"
-        revision="master" />
+        revision="master" /> -->
 </manifest>
