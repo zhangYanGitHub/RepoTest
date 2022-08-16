@@ -1,4 +1,3 @@
-
 <manifest>
   <remote  name="Foundation"
        fetch="https://xi-bitbucket-01.telenav.com/scm/bitbucket/viv/vivid-ivi-foundation.git"
