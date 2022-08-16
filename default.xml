@@ -1,0 +1,20 @@
+<manifest>
+  <remote  name="vivid-ivi-foundation"
+       fetch="https://xi-bitbucket-01.telenav.com/scm/bitbucket/viv/vivid-ivi-foundation.git"
+       revision="master"
+       review="https://xi-bitbucket-01.telenav.com/scm/bitbucket/viv/vivid-ivi-foundation.git" />
+  <remote  name="vivid-ivi-zoom"
+       fetch="https://bitbucket.telenav.com/scm/viv/vivid-ivi-zoom.git"
+       revision="master"
+       review="https://bitbucket.telenav.com/scm/viv/vivid-ivi-zoom.git" />
+  
+  <default remote="origin"
+           revision="master"
+       sync-j="4" />
+
+ <project
+        path="VIVID/Zoom"
+        name="Zoom"
+        remote="origin"
+        revision="master" />
+</manifest>
